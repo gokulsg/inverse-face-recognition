@@ -9,8 +9,7 @@ class EmbedImagePairs(Dataset):
     def __init__(self, data_dir, train=True, size=64, n_hidden=128):
         super().__init__()
 
-        self.embeds = sorted(glob.glob(f'{data_dir}/**.npy'))
-        
+        self.embeds = sorted(glob.glob(f'{data_dir}/**/*.npy', recursive=True))
         self.images = [direc.replace(".npy", ".jpg") for direc in self.embeds]
 
         self.train = train
