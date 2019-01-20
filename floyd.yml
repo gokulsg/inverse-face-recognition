@@ -1,0 +1,5 @@
+env: pytorch-1.0
+input:
+  - destination: data
+    source: irhumshafkat/datasets/face-inversion-dataset/3
+machine: gpu
