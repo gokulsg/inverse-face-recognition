@@ -84,7 +84,7 @@ def val_epoch(model, val_dataloader, criterion, dlib_models, device):
     return val_loss, dists
 
 def save_model(epoch, model, optimizer, fname):
-    print('saving')
+    print(f'saving at epoch {epoch}')
     torch.save({
         'epoch': epoch,
         'model_state_dict': model.state_dict(),
