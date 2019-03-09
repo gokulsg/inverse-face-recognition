@@ -9,7 +9,9 @@ Just click the button above, and you should be redirected to open a workspace on
 
 ### Running locally
 
-Clone this respository, download the required data from [here](https://www.floydhub.com/irhumshafkat/datasets/face-inversion-dataset/4), extract the contents to a folder `floyd/input/data` created inside the repository folder. 
+Clone this respository, download the required data from [here](https://www.floydhub.com/irhumshafkat/datasets/face-inversion-dataset/4). As of right now, all instances of `floyd/input/data` will need to be replaced with your extraction directory. 
+
+#### Required libraries
  
 ## Data 
 
