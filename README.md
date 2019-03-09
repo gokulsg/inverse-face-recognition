@@ -15,4 +15,4 @@ Clone this respository, download the required data from [here](https://www.floyd
 
 *Train/Validation/Test*: all images used in these sets were taken from the Labelled Faces in the Wild dataset, found [here](http://vis-www.cs.umass.edu/lfw/), and the splitting method is described in the article
 
-*Visualization*: Images used for visualization purposes in the article were taken from Wikimedia commons, with the source and additional information being available in the URLs in the `sources.txt` file in the `vis` folder of both the 128dim and 1024dim version of the dataset
+*Visualization*: Images used for visualization purposes in the article were taken from Wikimedia commons, with the source being available in the `sources.txt` file in the `vis` folder of both the 128dim and 1024dim version of the dataset
