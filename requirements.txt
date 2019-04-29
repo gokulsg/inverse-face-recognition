@@ -46,7 +46,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.4.0
 itsdangerous==1.1.0
 jedi==0.12.1
-Jinja2==2.10
+Jinja2==2.10.1
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
@@ -152,7 +152,7 @@ traitlets==4.3.2
 typing==3.6.6
 ujson==1.35
 Unidecode==1.0.23
-urllib3==1.23
+urllib3==1.24.2
 uWSGI==2.0.17
 virtualenv==16.0.0
 wcwidth==0.1.7
